@@ -18,7 +18,7 @@ beforeAll(() => {
     headers: jsonHeader,
     body: {
       email: 'jim@' + config.get('application.domain'),
-      password: 'ncc-1701'
+      password: ''
     }
   })
     .expect('status', 200)
